@@ -1,0 +1,47 @@
+<html>
+<head>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+</head>
+<body>
+<div class = "image2">
+    <TABLE BORDER="0" cellpadding="0" CELLSPACING="0">
+        <TR>
+
+            <TD WIDTH= 1000px HEIGHT=800px BACKGROUND="https://farm8.staticflickr.com/7623/16743432195_70a977a056_b.jpg" alt="Foggy Night"></a>
+                <div class = "form2">
+                 <form id="form">
+                    Date of Incident: <br>
+                    <INPUT TYPE = "text" NAME = "Date of Incident" id ="date" SIZE = "30">
+                     <br>
+                     Location: <br>
+                     <INPUT TYPE = "text" NAME = "location" id = "location" SIZE = "50">
+                         <br>
+                         Details: <br>
+                         <TEXTAREA NAME = "comment" ROWS = 8 COLS = 50> </TEXTAREA>
+                         <br>
+                         Description of Perpetrator: <br>
+                         <TEXTAREA NAME = "comment" ROWS = 8 COLS = 50> </TEXTAREA>
+                         <br>
+                         <INPUT TYPE = "submit"/>
+                         <INPUT TYPE = "reset"/>
+                </form>
+                     <script>
+                      var myDataRef = new Firebase('https://yx5zasqxd9r.firebaseio-demo.com/');
+                      $('#form').submit(function (e) {
+                          var text = $('#location').val();
+                          var name = $('#date').val();
+                          console.log(name);
+                          myDataRef.push({date: name, location: text});
+                      });
+
+                  </script>
+              </div>
+              </var>
+        </TR>>
+     </TABLE>>       
+</div>>
+</body>
+</html>
