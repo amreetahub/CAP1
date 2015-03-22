@@ -1,0 +1,11 @@
+div.form{
+	color:white;
+	position: absolute;
+	top: 20%;
+	left:10%;
+}
+div.image{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
