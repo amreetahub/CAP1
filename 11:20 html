@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class = "wholebody">
+<h5>
+	<div class = "Title">
+		<center>
+		<em>
+		Website
+		</em>
+		</center>
+	</div>
+</h5>
+
+</head>
+<!--
+scrolling inspiration
+//-->
+<div class = "quote">
+	"I love to see a young girl go out and grab the world by the lapels. Life’s a bitch. You’ve got to go out and kick ass." - Maya Angelou
+</div>
+
+<head>
+<title> Enter ZIP Code Here </title>
+<meta charset="UTF-8">
+<meta name="description" content="Report Sexual Violence">
+<meta name="keywords" content="Report,Sexual Assault,Women,Violence,Rape,Universities,College">
+
+</head>
+<!-- JAVASCRIPT to clear search text when the field is clicked -->
+<script type="text/javascript">
+window.onload = function(){ 
+	//Get submit button
+	var submitbutton = document.getElementById("tfq");
+	//Add listener to submit button
+	if(submitbutton.addEventListener){
+		submitbutton.addEventListener("click", function() {
+			if (submitbutton.value == 'Enter City Here'){//Customize this text string to whatever you want
+				submitbutton.value = 'Enter City Here';
+			}
+		});
+	}
+}
+</script>
+<!-- CSS styles for standard search box with placeholder text-->
+<style type="text/css">
+	#tfheader{
+		background-color:white;
+		opacity: 0.6;
+	}
+	#tfnewsearch{
+		float:center;
+		padding:20px;
+	}
+	.tftextinput3{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:red;
+		border:1px solid #0076a3;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;		
+	}
+	.tfclear{
+		clear:both;
+	}
+</style>
+
+<div class = "image">
+<TABLE BORDER="0" cellpadding="0" CELLSPACING="0">
+<TR>
+
+<TD WIDTH= 700px HEIGHT=500px BACKGROUND="https://farm8.staticflickr.com/7348/8730579931_f76a40bcf0_k.jpg"  style= "background-size:cover;" VALIGN="bottom" BACKGROUND align= "middle">
+
+<FONT SIZE="+1" COLOR="yellow"> 
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        
+		        <input type="text" name="inputBox" class="tftextinput3" placeholder="Enter City Here">
+		</form>
+	</div>
+
+
+</FONT></TD>
+
+</TR>
+</TABLE>
+</div>
+
+	<!-- HTML for SEARCH BAR -->
+	
+
+
+
+<div class = "resources">
+	<ul>
+  		<li><a href="http://www.aftersilence.org/">Get Help with After Silence</a></li>
+  		<li><a href="http://www.safehorizon.org/page/rape-and-sexual-assault-13.html">Get Help with Safe Horizon</a></li>
+  		<li><a href="http://www.pandys.org/secondarysurvivors.html">For Parents and Friends of Victims</a></li>
+  		<li><a href="https://counseling.uoregon.edu/dnn/SelfhelpResources/SexualAssaultSexualAbuse/HowtoHelpaFriendWhoHasBeenRaped/tabid/389/Default.aspx">For Friends of Victims</a></li>
+	</ul>
+</div>
+</body>
+
+
+</div>
+</html>
