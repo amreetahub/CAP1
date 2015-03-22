@@ -18,17 +18,20 @@ https://api.tiles.mapbox.com/v4/{resource}.json?access_token=pk.eyJ1IjoiYW1yZWV0
 <div id='map'></div>
 <script>
 
-<script language="javascript" type="text/javascript">
+//<script language="javascript" type="text/javascript">
     address = document.getElementById('map').value;
     
-    }
-</script>
+    
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW1yZWV0YW1hcHMiLCJhIjoiT0xMbndybyJ9.WDWX26jD9CcJCv7AC69dPw';
 var map = L.mapbox.map('map', 'examples.map-i86nkdio')
     .setView([40, -74.50], 11);
 
+//var marker = L.marker([51.5, -0.09]).addTo(map);
 
 </script>
 </body>
 </html>
+
+
+
