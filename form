@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <body>
-  <form>
+  <form action= "database.php” method= "post”>
     Date of Incident: <br>
     <INPUT TYPE = "text" NAME = "Date of Incident" SIZE = "30">
     <br>
@@ -13,10 +13,9 @@
     Description of Perpetrator: <br>
     <TEXTAREA NAME = "comment" ROWS = 8 COLS = 50> </TEXTAREA>
     <br>
-    <id TYPE = "submit"/>
-    
+    <INPUT TYPE = "submit"/>
+    <INPUT TYPE = "reset"/>
 
 
 
 </body>
-
