@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<body>
+  <form>
+    Date of Incident: <br>
+    <INPUT TYPE = "text" NAME = "Date of Incident" SIZE = "30">
+    <br>
+    Location: <br>
+    <INPUT TYPE = "text" NAME = "location" SIZE = "100">
+    <br>
+    Details: <br>
+    <TEXTAREA NAME = "comment" ROWS = 8 COLS = 50> </TEXTAREA>
+    <br>
+    Description of Perpetrator: <br>
+    <TEXTAREA NAME = "comment" ROWS = 8 COLS = 50> </TEXTAREA>
+    <br>
+    <INPUT TYPE = "submit"/>
+    <INPUT TYPE = "reset"/>
+
+
+
+</body>
