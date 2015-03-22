@@ -19,6 +19,15 @@ https://api.tiles.mapbox.com/v4/{resource}.json?access_token=pk.eyJ1IjoiYW1yZWV0
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW1yZWV0YW1hcHMiLCJhIjoiT0xMbndybyJ9.WDWX26jD9CcJCv7AC69dPw';
 var map = L.mapbox.map('map', 'examples.map-i86nkdio')
     .setView([40, -74.50], 1);
+    
+    
+<script language="javascript" type="text/javascript">
+    lol = document.getElementById('lolz').value;
+    function kk(){
+    alert(lol);
+    }
+</script>
+
 </script>
 </body>
 </html>
