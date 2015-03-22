@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+	<link rel="StyleSheet" href="style.css" type="text/css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Website</title>
+	<link rel="stylesheet" href="style.css" />
+	<meta charset="UTF-8">
+	<meta name="description" content="Report Sexual Violence">
+	<meta name="keywords" content="Report,Sexual Assault,Women,Violence,Rape,Universities,College">
+</head>
+
+<body>
+ 	
+	<div class = "title">
+		You're Not Alone
+	</div>
+
+	<div class = "image">
+		<TABLE BORDER="0" cellpadding="0" CELLSPACING="0">
+			<TR>
+
+				<TD WIDTH= 1500px HEIGHT=1000px BACKGROUND="https://farm8.staticflickr.com/7348/8730579931_f76a40bcf0_k.jpg"  style= "background-size:cover;" VALIGN="bottom">
+
+					<div id = "enter">
+						<script type="text/javascript">
+							window.onload = function(){ 
+						//Get submit button
+						var submitbutton = document.getElementById("tfq");
+						//Add listener to submit button
+
+						submitbutton.addEventListener("click", function() {
+							window.location = "form.html"
+						}
+						var submitbutton2 = document.getElementById("tfq2");
+						//Add listener to submit button
+
+						submitbutton2.addEventListener("click", function() {
+							window.location.assign ("mapbox.html")
+						}
+					});
+
+					}
+
+				</script>
+			</div>
+			<form action="form.html">
+				<button type="submit" id = "tfq">
+					Share Your Story. 
+					Empower Others.
+				</button>
+			</form>
+			<form action="mapbox.html">
+				<button type="submit" id = "tfq2">
+					Select Your City.
+				</button>
+			</form>
+
+
+
+		</TD>
+
+	</TR>
+</TABLE>
+</div>
+
+<!-- HTML for SEARCH BAR -->
+<div class = "resources">
+	<p>
+	<a href="http://clerycenter.org/help-victims"> Clery Center </a>
+	</p>
+
+	<p>
+	<a href="http://www.feminist.org/911/resources.html"> Feminist Majority</a>
+	</p>
+
+	<p>
+	<a href="https://rainn.org/"> Rainn</a>
+	</p>
+</div>
+
+
+
+</body>
+
+
+</div>
+</html>
