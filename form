@@ -13,9 +13,10 @@
     Description of Perpetrator: <br>
     <TEXTAREA NAME = "comment" ROWS = 8 COLS = 50> </TEXTAREA>
     <br>
-    <INPUT TYPE = "submit"/>
-    <INPUT TYPE = "reset"/>
+    <id TYPE = "submit"/>
+    
 
 
 
 </body>
+
