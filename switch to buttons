@@ -1,0 +1,15 @@
+<div id="tfheader">
+					<form id="tfnewsearch" method="get" action="http://www.google.com">
+
+						<input type="text" name="inputBox" class="tftextinput3" placeholder="Enter City Here">
+						
+					</form>
+				</div>
+
+				<div id="tfheader2">
+					<form id="tfnewsearch" method="get" action="http://www.google.com">
+
+						<input type="text" name="inputBox" class="tftextinput3" placeholder="Search City">
+						
+					</form>
+				</div>
