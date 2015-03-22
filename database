@@ -10,37 +10,26 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Create database
-$sql = "CREATE DATABASE myDB";
-if ($conn->query($sql) === TRUE) {
-    echo "Database created successfully";
-} else {
-    echo "Error creating database: " . $conn->error;
-}
-CREATE TABLE LocationData (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-location VARCHAR(30) NOT NULL,
-)
-<?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($conn->query($sql) === TRUE) 
+{
+} 
+else 
+{
+    $sql = "CREATE DATABASE myDB";
 }
 
-$sql = "INSERT INTO LocationData (location)
-VALUES (data)";
+$querycheck='SELECT 1 FROM `LocationData`';
+$query_result=$dbConnection->query($querycheck);
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+if ($query_result === FALSE)
+{
+	CREATE TABLE LocationData (
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	location TEXT NOT NULL,
+	)
 }
+
 $user_info = “INSERT INTO LocationData (location) VALUES ('$_POST[location]')”;
 if (!mysql_query($user_info, $connect)) { die('Error: ' . mysql_error()); }
+>
